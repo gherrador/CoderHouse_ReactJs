@@ -1,0 +1,78 @@
+@font-face {
+    font-family: hollow;
+    src: url(/src/fonts/Hollow.ttf);
+  }
+  
+  @font-face {
+    font-family: oswald;
+    src: url(/src/fonts/Oswald.ttf);
+  }
+  
+  @font-face {
+    font-family: cabin;
+    src: url(/src/fonts/Cabin-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: pokesolid;
+    src: url(/src/fonts/Solid.ttf);
+  }
+
+  @keyframes agrandar {
+    from {
+        transform: scale(1)
+    }
+    to {
+      transform: scale(1.1)
+    }
+  }
+  
+  @keyframes achicar {
+    from {
+      transform: scale(1.1)
+    }
+    to {
+      transform: scale(1)
+    }
+  }
+  
+  .navegador{
+    background-color: #bd3133;  
+  }
+  
+  #logo{
+    width: 50px;
+    height: 50px;
+    margin-left: -30px;
+    margin-right: 10px;    
+  }
+  
+  #brandNav {
+    font-size: 25px;
+    font-family:'hollow';
+    color: white;
+  }
+
+#carrito{
+  margin-right: 30px;
+  animation-name: achicar;
+  animation-duration: 1s;
+}
+
+#carrito:hover{
+  animation-name: agrandar;
+  animation-duration: 1s;
+  animation-fill-mode: forwards
+}
+
+.categorias{
+  margin-left: 320px;
+}
+
+#selector:hover, #basic-nav-dropdown:hover{
+  color: #F2E007;
+  text-decoration: underline;
+  transition: 0.5s all ease-in-out;
+  transform: scale(1.1)
+}
+
