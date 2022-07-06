@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Relish;
+    src: url(/src/fonts/Relish\ Pro.ttf);
+  }
+
+.GoogleIcon img{
+    width: 2vw;
+    height: auto;
+    margin-left: 0.5vw;
+    
+  
+}
+
+.buttonGoogle {
+    width: 9.5vw;
+    height: 2.7vw;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    border: outset;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    font-size: 1vw; 
+   }
+
+.googleText{
+    color: black;
+    font-weight: bold;
+    margin-left: 0.2vw;
+    font-size: 1.3vw;
+    font-family: Relish;
+    margin-left: 10%;
+
+}

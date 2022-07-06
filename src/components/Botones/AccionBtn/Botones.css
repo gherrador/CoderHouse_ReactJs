@@ -1,0 +1,12 @@
+.btnComprar{
+    margin-left: 0.3vw;
+    border-style: outset;
+}
+.btnComprarContainer{
+    display: block;
+    margin: auto;
+}
+
+.btnModify{
+    margin-top: 1vw;
+}

@@ -1,0 +1,51 @@
+.Cantidad{
+    width:max-content;
+    border-radius: 5px;
+    background-color: gainsboro;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+}
+
+#btnPlus, #btnMinus{
+    width: 1.2vw;
+    height: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnPlus p{
+    text-align: center;
+    margin-top: 0.8vw;
+    margin-right: 0.03vw;
+}
+
+#btnMinus p{
+    text-align: center;
+    margin-top: 0.7vw;
+    margin-right: 0.05vw;
+    font-size: 1.5vw;
+}
+
+
+
+.cajon{
+    align-items: center;
+    display: flex;
+}
+
+.Card{
+    width:max-content;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+#btn-agregar{
+    display: block;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}

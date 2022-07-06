@@ -1,0 +1,60 @@
+.table-data {
+  padding-top: 150px;
+}
+
+.table-data__title {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: -10%;
+  margin-left: 60%;
+}
+
+.table {
+  width: 90%;
+  height: 100%;
+  margin: 30px auto;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.fotoCart {
+  width: 8vw;
+  height: 8vw;
+}
+
+.table td {
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.Cantidad {
+  width: 8vw;
+}
+
+.acciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.titulo {
+  margin: 0.5vw 0 0.5vw 0;
+
+}
+
+.Cajon {
+  align-items: center;
+  display: flex;
+  flex: row;
+}
+
+#btnPlus,
+#btnMinus {
+  width: 1.5vw;
+  height: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

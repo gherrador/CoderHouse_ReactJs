@@ -1,0 +1,63 @@
+.LoginUser svg{
+    width: 1.5vw;
+    height: auto;
+    fill: #eee;  
+    margin-left: 0.5vw;    
+    border-radius: 50%; 
+    border: 1px solid white;
+    padding: 1px;
+}
+
+.logAccount{
+    display: flex;
+    flex: row;
+    flex-wrap: nowrap;
+    border: 1px solid white;
+    border-radius: 10px;    
+    background-color: #bd3133; 
+    margin-right: 1vw; 
+    
+}
+
+.cajonLogin{
+    width: 8.5vw;
+    height: auto;   
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex: row;
+    flex-wrap: nowrap;
+}
+
+.logintext{
+    color: white;
+    font-weight: bold;
+}
+
+.logAccount{
+    animation-name: achicar;
+    animation-duration: 1s;
+  }
+  
+  .logAccount:hover{
+    animation-name: agrandar;
+    animation-duration: 1s;
+    animation-fill-mode: forwards
+  }
+
+@keyframes agrandar {
+    from {
+        transform: scale(1)
+    }
+    to {
+      transform: scale(1.1)
+    }
+  }
+  
+  @keyframes achicar {
+    from {
+      transform: scale(1.1)
+    }
+    to {
+      transform: scale(1)
+    }
+  }

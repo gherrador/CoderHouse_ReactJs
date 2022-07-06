@@ -1,0 +1,10 @@
+.Sign{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#btnReg, #btnBack{
+    font-size: 1vw;
+    margin: 1vw;
+}

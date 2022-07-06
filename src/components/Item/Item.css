@@ -1,0 +1,18 @@
+.card{
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+.foto{
+    width: 14vw;
+    height: 12vw;
+    
+}
+
+.contenedor{
+    background-color: antiquewhite;
+}
+

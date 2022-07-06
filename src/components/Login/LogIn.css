@@ -1,0 +1,64 @@
+.LogIn {  
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 9.5%;
+    right: 0.5%;
+    width: 20%;
+    height: 70%;
+    min-height: 30%;
+    max-height: 90%;
+    background-color: white;  
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 2px #bd3133 solid;
+    z-index: 1001;
+}
+
+#btnLog{
+    margin-top: 5%;
+}
+
+.Loged {  
+    position: fixed;
+    top: 9.5%;
+    right: 0.5%;
+    width: 22%;
+    height: 60%;
+    min-height: 30%;
+    max-height: 90%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.75rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 2px #bd3133 solid;
+    overflow-y: scroll;
+    z-index: 1001;
+}
+
+#fotoLog{
+    width: 8vw;
+    height: auto;
+}
+
+#Reg{
+    margin: 2%;
+}
+
+.btnLoggersProvier{    
+    width: 60%;
+    height: 30%;    
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: auto;
+}

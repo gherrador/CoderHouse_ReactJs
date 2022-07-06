@@ -1,0 +1,21 @@
+
+.layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .cardCredit{
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #dadada;
+    width: 70%;
+    margin-top: 30%;
+  }
+
+  .form-row{
+    display: flex;
+    flex-direction: row;
+  }
+  

@@ -1,0 +1,27 @@
+.buttonFacebook {
+    width: 9.5vw;
+    height: 2.7vw;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #4267B2;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    font-size: 1vw; 
+   }
+
+.facebooktext{
+    color: white;
+    font-weight: bold;
+    margin-left: 0.2vw;
+    font-size: 1.2vw;
+
+}
+.facebook svg{
+    fill: white;
+    width: 2vw;
+    height: auto;
+    margin-left: 0.5vw;
+}

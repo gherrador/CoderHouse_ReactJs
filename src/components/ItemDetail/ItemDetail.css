@@ -1,0 +1,71 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: fit-content;
+}
+
+.productContent{
+    height: fit-content;
+    background-color: antiquewhite;
+    border-style: outset;
+    box-shadow: 6px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.itemDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: white;
+    width: auto;
+    max-width:49vw;
+    height: auto;
+    padding: 2.8vw;
+    margin-left:7.3vw;
+    white-space: pre-wrap;
+
+}
+
+#fotoContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 30vw;
+    margin: 0.8vw 0 0.7vw 0;
+}
+
+#foto {
+    width: 28vw;
+    height: 28vw;
+    background-color: white;
+}
+
+
+.fotosAux img{
+    width: 4vw;
+    height: 4.5vw;
+    margin-top: 0.8vw;  
+}
+
+.fotosAux {
+    width: min-content;
+    height: fit-content;
+    background-color: white;
+    margin-top: 0.8vw;
+    padding-bottom: 0.5vw;
+}
+
+.fotosAux img:hover {
+    background-color: #DDD;
+    border: 1px solid blue; 
+}
+
+
+

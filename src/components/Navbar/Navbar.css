@@ -1,0 +1,126 @@
+@font-face {
+    font-family: hollow;
+    src: url(/src/fonts/Hollow.ttf);
+  }
+  
+  @font-face {
+    font-family: oswald;
+    src: url(/src/fonts/Oswald.ttf);
+  }
+  
+  @font-face {
+    font-family: cabin;
+    src: url(/src/fonts/Cabin-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: pokesolid;
+    src: url(/src/fonts/Solid.ttf);
+  }
+
+  @keyframes agrandar {
+    from {
+        transform: scale(1)
+    }
+    to {
+      transform: scale(1.1)
+    }
+  }
+  
+  @keyframes achicar {
+    from {
+      transform: scale(1.1)
+    }
+    to {
+      transform: scale(1)
+    }
+  }
+  
+  .navegador{
+    background-color: #bd3133;  
+  }
+  
+  #logo{
+    width: 50px;
+    height: 50px;
+    margin-left: -1vw;
+    margin-right: 0.5vw;    
+  }
+  
+  #brandNav {
+    font-size: 25px;
+    font-family:'hollow';
+    color: white;
+    text-decoration: none;
+    margin-left: 2vw;
+  }
+
+#carrito{
+  margin-right: 30px;
+  animation-name: achicar;
+  animation-duration: 1s;
+}
+
+#carrito:hover{
+  animation-name: agrandar;
+  animation-duration: 1s;
+  animation-fill-mode: forwards
+}
+
+
+.categorias{
+  width: max-content;
+  margin-left: 22%;
+}
+
+
+#selector{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 3%;
+}
+
+
+#contenedorMenu{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.selected{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 3%
+}
+
+.selected:hover, #basic-nav-dropdown:hover, #selector:hover{
+  color: #F2E007;
+  text-decoration: underline;
+  transition: 0.5s all ease-in-out;
+  transform: scale(1.1)
+}
+
+.contador{
+  display: flex;
+  width: 1.5vw;
+  height: 1.5vw;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  font-size: 1vw;
+  position: block;
+  margin: 2vw -0.5vw 0 0;
+  border: 0.5vw solid transparent;
+  transition: opacity 0.3s;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
