@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/CoderHouse_ReactJs/static/css/main.17e6b45c.css",
+    "main.js": "/CoderHouse_ReactJs/static/js/main.0df6525b.js",
+    "static/media/thanks.gif": "/CoderHouse_ReactJs/static/media/thanks.30943245f428d7ec7130.gif",
+    "static/media/Relish Pro.ttf": "/CoderHouse_ReactJs/static/media/Relish Pro.29af3fdd3d845c530142.ttf",
+    "static/media/Oswald.ttf": "/CoderHouse_ReactJs/static/media/Oswald.5b37a8f3ab53dd02dadf.ttf",
+    "static/media/Cabin-Regular.ttf": "/CoderHouse_ReactJs/static/media/Cabin-Regular.f54a520853e3c54bd448.ttf",
+    "static/media/Hollow.ttf": "/CoderHouse_ReactJs/static/media/Hollow.47f77ce9939c5330492b.ttf",
+    "static/media/logo.jpg": "/CoderHouse_ReactJs/static/media/logo.887b96ae18315cc54fa6.jpg",
+    "static/media/Solid.ttf": "/CoderHouse_ReactJs/static/media/Solid.5d60be1f7ff5fcc21fc1.ttf",
+    "static/media/google.png": "/CoderHouse_ReactJs/static/media/google.35fd786694842c57b8e3.png",
+    "index.html": "/CoderHouse_ReactJs/index.html",
+    "main.17e6b45c.css.map": "/CoderHouse_ReactJs/static/css/main.17e6b45c.css.map",
+    "main.0df6525b.js.map": "/CoderHouse_ReactJs/static/js/main.0df6525b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17e6b45c.css",
+    "static/js/main.0df6525b.js"
+  ]
+}
