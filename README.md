@@ -98,9 +98,35 @@ Para dicho fin se han implementado distintas alternativas:
   - Container: Logica entre un Context y la vista (Vienen a asemejar a los services)
   - Vistas
 
+ ## Version NODE y NPM utilizadas
+
+- node: 16.15.0,
+- npm: 8.13.12
+
+## Dependencias
+
+- bootstrap: 5.1.3,
+- emailjs-com: 3.2.0,
+- firebase: 9.8.2,
+- react: 18.1.0,
+- react-bootstrap: 2.3.1,
+- react-credit-cards: 0.8.3,
+- react-dom: 18.1.0,
+- react-hook-form: 7.31.3,
+- react-magnifier: 3.0.4,
+- react-router-dom: 6.3.0,
+- react-scripts: 5.0.1,
+- sweetalert2": 11.4.10,
+- sweetalert2-react-content: 5.0.0,
+- web-vitals: 2.1.
+- gh-pages: 4.0.0
  
 
 ## En el directorio del proyecto se debe ingresar en la consola:
+
+### `npm i --force`
+
+De esta manera podra instalar todas las dependencias necesarias para el proyecto.
 
 ### `npm start`
 
